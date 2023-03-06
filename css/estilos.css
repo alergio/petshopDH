@@ -55,13 +55,12 @@
 }
 
 .nav-lista {
-  width: 350px;
   list-style: none;
   color: #ffffff;
-  font-size: 13px;
   display: flex;
   height: 100%;
   align-items: center;
+  margin-right: 40px;
 }
 
 .nav-lista > li {
@@ -70,6 +69,10 @@
   display: flex;
   align-items: center;
   transition: .15s;
+}
+
+.nav-lista > li > span {
+  font-size: 20px;
 }
 
 .nav-lista > li:hover {
@@ -89,14 +92,14 @@ nav {
   background-image: url(../img/bowl-and-pet-daities-on-green-background\ 1.png);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 409px;
+  height: 609px;
   position: relative;
 }
 
 .bienvenida {
   position: absolute;
-  right: 12px;
-  top: 155px;
+  right: 40px;
+  bottom: 30%;
   text-align: center;
 }
 
