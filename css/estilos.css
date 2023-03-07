@@ -36,12 +36,15 @@
 }
 
 .header-container-bottom {
+  position: sticky;
+  top: 0;
   background-color: #f0a83e;
   height: 62px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 40px 0;
+  z-index: 5;
 }
 
 .logo {
